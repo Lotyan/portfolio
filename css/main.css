@@ -1,0 +1,252 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'MuseoSansCyrl-300', Tahoma, sans-serif;
+	font-size: 15px;
+}
+div, nav, ul, li , span {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+p {
+	padding: 0;
+	margin: 0;
+	line-height: 1.5em;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+li {
+	display: block;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3 {
+	font-family: Natasha, Tahoma, sans-serif;
+	text-transform: uppercase;
+}
+h1 {
+	font-size: 49px;
+}
+h2 {
+	font-size: 37px;
+}
+h3 {
+	font-size: 22px;
+	color: #888886;
+}
+.wrapper {
+	background: url('../img/header-bg.png') no-repeat center top / cover;
+	color: #fff;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 82px;
+}
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+.header__menu {
+	display: flex;
+	justify-content: space-between;
+}
+.header__menu_logo {
+	color: #fff;
+}
+.header__menu_logo span:nth-child(1) {
+	font-family: 'MuseoSansCyrl-300', Tahoma, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	position: absolute;
+}
+.header__menu_logo span:nth-child(2){
+	font-family: 'MuseoSansCyrl-900', Tahoma, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	position: relative;
+	padding-left: 25px;
+}
+.header__menu_item{
+	display: flex;
+}
+.header__menu_item a{
+	color: #fff;
+	font-family: 'MuseoSansCyrl-900', Tahoma, sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+
+}
+.header__menu_item li{
+	margin-right: 45px;
+}
+.header__menu_item li:nth-child(3) {
+	margin-right: 0;
+}
+.header__menu_email a{
+	color: #fff;
+}
+.first__offer {
+	margin-top: 280px;
+}
+.first__offer span {
+	display: block;
+	font-family: 'MuseoSansCyrl-100', Tahoma, sans-serif;
+	font-size: 29px;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+.first__arrow-icon{
+	margin-top: 255px;
+}
+.header__menu_email{
+	border-bottom: 1px solid #fff;
+	padding-bottom: 4px;
+}
+.first__arrow-icon {
+	cursor: pointer;
+}
+.about-me {
+	padding-top: 80px;
+}
+.about-me__wrapper{
+	display: flex;
+	margin-top: 70px;
+}
+.background-info__desc {
+	margin-top: 40px;
+}
+.background-info__desc p {
+	line-height: 1.9em;
+}
+.merit__items {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 45px;
+}
+.connection__credits {
+	display: flex;
+}
+.about-me__background_info {
+	margin-right: 100px;
+}
+.rhomb {
+	background: url('../img/rhomb.png') no-repeat;
+	width: 103px;
+	height: 103px;
+	text-align: center;
+	margin-right: 55px;
+}
+.rhomb:last-child {
+	margin-right: 0;
+}
+.rhomb span {
+	line-height: 103px;
+	font-size: 20px;
+	color: #204d15;
+}
+.rhomb p {
+	font-family: 'MuseoSansCyrl-100', Tahoma, sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-top: 25px;
+}
+.column__connection {
+	margin-top: 120px;
+}
+.connection__credits{
+	font-size: 14px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 38px;
+	align-items: center;
+}
+.connection__credits a {
+	font-family: 'MuseoSansCyrl-300', Tahoma, sans-serif;
+	display: block;
+	color: #204d15;
+	border-bottom: 1px solid #204d15;
+	padding-bottom: 2px;
+	margin-bottom: 15px;
+	letter-spacing: 0.05em;
+}
+li.connection__credits_icon {
+	display: block;
+	background: url('../img/avatar.png') no-repeat center left;
+	padding-left: 84px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-style: italic;
+	color: #22241b;
+}
+.skills {
+	margin-top: 90px;
+}
+.skills__wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+}
+.skills__percent {
+	position: relative;
+	background: url('../img/circle.png') no-repeat center center;
+	text-align: center;
+	width: 63px;
+	height: 63px;
+	line-height: 61px;
+	margin-right: 75px;
+}
+.skills__percent span {
+	font-family: 'MuseoSansCyrl-900', Tahoma, sans-serif;
+	text-transform: uppercase;
+	position: absolute;
+	left: 80px;
+}
+.portfolio {
+	padding-top: 80px;
+}
+.portfolio__work {
+	display: flex;
+	margin-top: 60px;
+}
+.work__item {
+	margin-right: 20px;
+	position: relative;
+}
+.overlay {
+	font-family: 'MuseoSansCyrl-900', Tahoma, sans-serif;
+	text-transform: uppercase;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+	padding: 130px 0;
+	background: rgba(0, 0, 0, 0.6);
+	opacity: 0;
+	transition: all 0.5s ease;
+}
+.overlay a{
+	display: block;
+	font-family: 'MuseoSansCyrl-300', Tahoma, sans-serif;
+	font-size: 13px;
+	color: #fff;
+	margin-top: 12px;
+	text-transform: none;
+}
+.work__item:hover .overlay {
+	opacity: 1;
+}
+.footer {
+	padding-top: 120px;
+	padding-bottom: 110px;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #22241b;
+}

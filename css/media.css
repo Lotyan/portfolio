@@ -1,0 +1,64 @@
+/*Планшеты 728-960px*/
+@media screen and (max-width: 960px) {
+	.container {
+		width: 90%;
+	}
+	.portfolio {
+		text-align: center	
+	}
+	.portfolio__work {
+		flex-direction: column;
+		align-items: center;
+	}
+	.work__item {
+		margin-bottom: 20px;
+		margin-right: 0
+	}
+	.skills {
+		text-align: center
+	}
+	.skills__wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+	.skills__percent {
+		margin-bottom: 40px
+	}
+	.about-me h2, h3{
+		text-align: center
+	}
+	.about-me__background_info {
+		margin-right: 0;
+		margin-bottom: 60px;
+	}
+	.about-me__wrapper {
+		flex-direction: column;
+	}
+	.about-me__column {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.footer {
+		text-align: center
+	}
+}
+/*Мобильные 0-728px*/
+@media screen and (max-width: 728px) {
+	.header__menu_item {
+		display: none
+	}
+	.merit__items {
+		flex-direction: column;
+		align-items: center;
+	}
+	.rhomb {
+		margin-right: 0;
+		margin-bottom: 100px;
+	}
+	.column__connection {
+		margin-top: 40px
+	}
+	.connection__credits {
+		flex-direction: column;
+	}
+}
